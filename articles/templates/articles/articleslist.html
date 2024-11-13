@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
-    <h1>Articles list </h1>
+    <div class="container">
+        <h1>Articles list </h1>
     {% for article in articles %}
         <h2>
             <a href="#"> {{article.title}} </a>
@@ -22,5 +23,6 @@
             {{article.date}}
         </p>
     {% endfor %}
+    </div>
 </body>
 </html>
