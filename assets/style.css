@@ -2,6 +2,8 @@ body {
     background-color: #07003f;
     background-image: url(/static/stars.jpg);
     color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 body *{
     font-family: arial;
